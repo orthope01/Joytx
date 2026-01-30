@@ -150,7 +150,6 @@ MIT License - смотри [LICENSE](LICENSE)
 
 **JoystX Team** | Minecraft 1.21.1 | Fabric Mod
 English ver - 
-Вот качественный перевод твоего описания на английский язык, адаптированный под стандарты GitHub и Modrinth.
 
 ---
 
@@ -296,4 +295,5 @@ MIT License - see [LICENSE]()
 ---
 
 **JoystX Team** | Minecraft 1.21.1 | Fabric Mod
+
 
