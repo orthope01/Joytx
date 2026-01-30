@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "joystx",
+  "version": "${version}",
+  "name": "JoystX - PS4 Controller Mod",
+  "description": "Мод для поддержки PS4 контроллера (DualShock 4) в Minecraft с полной интеграцией DS4",
+  "authors": [
+    "JoystX Team"
+  ],
+  "contact": {
+    "sources": "https://github.com"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.joystx.mod.JoystXMod"
+    ],
+    "client": [
+      "com.joystx.mod.JoystXClientMod"
+    ]
+  },
+  "mixins": [
+    "joystx.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
