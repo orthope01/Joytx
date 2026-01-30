@@ -149,3 +149,151 @@ MIT License - смотри [LICENSE](LICENSE)
 ---
 
 **JoystX Team** | Minecraft 1.21.1 | Fabric Mod
+English ver - 
+Вот качественный перевод твоего описания на английский язык, адаптированный под стандарты GitHub и Modrinth.
+
+---
+
+# JoystX - PS4 Controller Mod for Minecraft
+
+A fully featured Fabric mod that enables seamless PS4 controller (DualShock 4) support for Minecraft 1.21.1.
+
+## 🎮 Features
+
+* ✅ **Full PS4 Controller Support** – All buttons and axes mapped.
+* ✅ **Optimal Sensitivity** – Fully adjustable via config file.
+* ✅ **Smart Deadzones** – Eliminates stick drift issues.
+* ✅ **Complete Action Mapping** – Jump, sprint, attack, and interact.
+* ✅ **Camera Control** – Smooth right-stick rotation.
+* ✅ **D-Pad Quick Access** – Easy inventory slot selection.
+* ✅ **Auto-Detection** – Plug-and-play controller recognition.
+* ✅ **DS4Windows Support** – Fully compatible with DS4Windows mapper.
+
+## 📋 Requirements
+
+* Java 21+
+* Minecraft 1.21.1
+* Fabric Loader 0.15.11+
+* PS4/DualShock 4 Controller or DS4Windows
+
+## 🚀 Installation
+
+1. **Download the mod JAR** from the `build/libs/` folder.
+2. **Place the JAR** into your Minecraft client's `mods` folder.
+3. **Launch Minecraft** using the Fabric profile.
+4. **Connect your PS4 controller** via USB or Bluetooth.
+
+## ⚙️ Configuration
+
+The configuration file is created after the first launch at:
+
+```
+config/joystx/controller-config.properties
+
+```
+
+### Main Settings:
+
+```properties
+# Deadzones (0.0 - 1.0)
+deadzone.left=0.1
+deadzone.right=0.15
+
+# Camera Sensitivity (Multiplier)
+sensitivity.camera=1.0
+
+# Movement Sensitivity (Multiplier)
+sensitivity.movement=1.0
+
+# Controller Vibration
+vibration.enabled=true
+
+# Auto-detect Controller
+auto.detect=true
+
+```
+
+## 🎯 Button Mapping
+
+| PS4 Button | Minecraft Action |
+| --- | --- |
+| **CROSS (✕)** | Jump |
+| **SQUARE (□)** | Sprint |
+| **CIRCLE (○)** | Sneak |
+| **TRIANGLE (△)** | Drop Item |
+| **L1** | Attack / Destroy |
+| **R1** | Use / Place |
+| **L2 (Analog)** | Alt-Use (90%+) |
+| **R2 (Analog)** | Power Attack (90%+) |
+| **L3** | Toggle Perspective |
+| **R3** | Alt View |
+| **OPTIONS** | Pause / Menu |
+| **SHARE** | Inventory |
+| **D-Pad ↑** | Slot 1 |
+| **D-Pad ←** | Slot 0 |
+| **D-Pad →** | Slot 2 |
+| **D-Pad ↓** | Slot 3 |
+| **Left Stick** | Movement (W/A/S/D) |
+| **Right Stick** | Camera Look |
+
+## 🔧 Development
+
+### Build Requirements
+
+* JDK 21+
+* Gradle 8.0+
+
+### How to Build
+
+```bash
+# Clone the repository
+git clone <repo-url>
+cd joystx
+
+# Build the mod
+./gradlew build
+
+# The JAR file will be in build/libs/joystx-mod-1.0.0.jar
+
+```
+
+## 🐛 Controller Support
+
+Supported devices:
+
+* **Sony DualShock 4** (PS4)
+* **Sony DualSense** (PS5) – Partial support
+* **Compatible Controllers** (with XINPUT support)
+
+### DS4Windows Integration
+
+For best compatibility on Windows, use [DS4Windows](https://ds4-windows.com/):
+
+1. Run DS4Windows.
+2. Connect your controller.
+3. The mod will automatically detect the emulated XINPUT device.
+
+## 📝 Logs & Debugging
+
+Log files can be found at:
+
+* Windows: `%APPDATA%\.minecraft\logs\latest.log`
+* Linux/Mac: `~/.minecraft/logs/latest.log`
+
+Search for "JoystX" or "joystx" for debug info.
+
+## 🤝 Contributing
+
+1. Open an issue describing the bug or feature.
+2. Fork the repository.
+3. Create a feature branch.
+4. Submit a pull request.
+
+## 📄 License
+
+MIT License - see [LICENSE]()
+
+---
+
+**JoystX Team** | Minecraft 1.21.1 | Fabric Mod
+
